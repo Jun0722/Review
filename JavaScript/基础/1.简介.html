@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="alert('Welcome!')">点击这里</button>
+    <p id="demo"></p>
+    <img id="img1">
+</body>
+<script>
+    document.write("<h1>This is a heading</h1>");
+    document.write("<p>This is a paragraph</p>");
+    x=document.getElementById("demo");
+    x.innerHTML="Hello JavaScript";
+    x.style.color="#ff0000"; 
+
+    y=document.getElementById("img1");
+    y.src="../images/ATM.png"
+
+    if(isNaN(x))
+    {
+        alert("not Numeric")
+    }
+</script>
+</html>
